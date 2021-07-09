@@ -156,28 +156,33 @@ text-align: justify;
 margin: 0px 30px 10px 30px;
 }
 
-
-.contact-quick-links{
+.footer{
+	width: 100%;	
 	display: flex;
 	justify-content: space-around;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 90px;
+	background: #dd9933;
 	color: white;
-	height:auto;
-	background: #dd9933
+}
 
+.footer-left span{
+	padding-left: 10px;
 }
-.contact-quick-links ul{
-	list-style: none;
-	padding-right: 40px;
+.contact-para-space{
+	padding-left: 25px;
 }
-.contact-quick-links a{
-	text-decoration: none;
-	color:white;
-	
-}
-.contact-quick-links i{
 
-	width: 30px;
-	height: 30px;
+.footer-right ul li a{
+text-decoration: none;
+color: white;
+}
+.footer-right ul li{
+	padding-bottom: 20px;
+}
+.footer-right ul{
+	padding-left: 10px;
 }
 
 .statistic{
@@ -397,9 +402,10 @@ flex-direction: column;
 flex-basis: 100%;
 margin-bottom: 10px;
 }
-.contact-quick-links{
+.footer{
 	display:flex;
-	flex-direction:column;	 	
+	flex-direction:column;	
+	padding-left: 50px 	
 }
 
 /**contact page start**/
@@ -428,4 +434,13 @@ width:90%;
 /**contact page end**/
 
 
+}
+
+@media only screen and (max-width: 	500px){
+.statistic-counter{
+	display: flex;
+	flex-direction: column;
+	max-width: 100%;
+	align-items: center;
+}
 }
