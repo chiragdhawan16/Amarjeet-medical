@@ -554,7 +554,8 @@ flex-direction: column;
 }
 
 .company-list ul{
-margin: 0 auto;
+margin-top: 0;
+margin-bottom: 0;
 }
 /**distributors page end**/
 
