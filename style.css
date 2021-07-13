@@ -407,8 +407,18 @@ display: flex;
 }
 .capture img{
 	width:50%;
+}
+.company-list{
+display: flex;
+justify-content: space-around;
+width: 80%;
+flex-wrap: wrap;
+margin: 0 auto;
 
 }
+
+
+
 /**distributors page end**/
 
 /**customer start **/
@@ -537,6 +547,14 @@ flex-direction: column;
 .capture img{
 	width:100%;
 
+}
+.company-list{
+	flex-direction: column;
+		margin: 0 auto;
+}
+
+.company-list ul{
+margin: 0 auto;
 }
 /**distributors page end**/
 
