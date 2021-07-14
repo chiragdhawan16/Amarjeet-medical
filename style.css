@@ -264,7 +264,7 @@ carasol customer page image start */
 	font-size:50px;
 	font-family: Brush Script MT;
 	color: #00cc99;
-	animation: customer 8s steps(20) infinite;
+	animation: customer 8s steps(22) infinite;
 	position: absolute;
 	left: 35%;
 	top: 40%;
@@ -277,7 +277,7 @@ carasol customer page image start */
 		
 	}
 	50%{
-		width: 20ch;
+		width: 22ch;
 		
 	}
 }
@@ -320,7 +320,7 @@ position: relative;
 	font-size:50px;
 	font-family: Brush Script MT;
 	color: #00cc99;
-	animation: contact 8s steps(23) infinite;
+	animation: contact 8s steps(25) infinite;
 	position: absolute;
 	left: 35%;
 	top: 40%;
@@ -333,7 +333,7 @@ position: relative;
 		
 	}
 	50%{
-		width: 23ch;
+		width: 25ch;
 		
 	}
 }
