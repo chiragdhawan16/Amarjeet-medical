@@ -226,12 +226,172 @@ height: 400px;
 	
 }
 
-/*carasol index page image start end
-carasol index page image start end
-carasol index page image start end
-carasol index page image start end*/
+/*carasol index page image  end
+carasol index page image  end
+carasol index page image  end
+carasol index page image  end*/
+
+/*carasol customer page image start 
+carasol customer page image start 
+carasol customer page image start 
+carasol customer page image start */
+
+.background-customer-scroll{
+	width: 100%;
+	height: 300px;
+	background-color: blue;
+	background-image: url('images/customers-main.jpg');
+	background-size: 100% 400px;
+	background-attachment: fixed;
+	margin-top: 30px;
+
+}
+.background-customer-scroll-design{
+	width: 100%;
+	height: 300px;
+	background-color: rgb(60, 60, 60,0.9);
+position: relative;
+
+}
+
+.background-customer-scroll-design p{
+	width: 0ch;
+	overflow: hidden;
+	white-space: nowrap;
+	margin: 0 ;
+	font-size:50px;
+	font-family: Brush Script MT;
+	color: #00cc99;
+	animation: typing 6s steps(22) infinite;
+	position: absolute;
+	left: 35%;
+	top: 40%;
+	border-right: 3px solid #00cc99;
+
+}
+@keyframes typing{
+	0%{
+		width: 0ch;
+		
+	}
+	50%{
+		width: 22ch;
+		
+	}
+}
+
+/*carasol customer page image  end
+carasol customer page image  end
+carasol customer page image  end
+carasol customer page image  end*/
+
+/*carasol contact page image start 
+carasol contact page image start 
+carasol contact page image start 
+carasol contact page image start */
 
 
+.background-contact-scroll{
+	width: 100%;
+	height: 300px;
+	background-color: blue;
+	background-image: url('images/contact-main.jpg');
+	background-size: 100% 400px;
+	background-attachment: fixed;
+	margin-top: 30px;
+
+}
+.background-contact-scroll-design{
+	width: 100%;
+	height: 300px;
+	background-color: rgb(60, 60, 60,0.9);
+position: relative;
+
+}
+
+.background-contact-scroll-design p{
+	width: 0ch;
+	overflow: hidden;
+	white-space: nowrap;
+	margin: 0 ;
+	font-size:50px;
+	font-family: Brush Script MT;
+	color: #00cc99;
+	animation: typing 8s steps(26) infinite;
+	position: absolute;
+	left: 35%;
+	top: 40%;
+	border-right: 3px solid #00cc99;
+
+}
+@keyframes typing{
+	0%{
+		width: 0ch;
+		
+	}
+	50%{
+		width: 26ch;
+		
+	}
+}
+
+
+/*carasol contact page image  end
+carasol contact page image  end
+carasol contact page image  end
+carasol contact page image  end*/
+
+/*carasol distribution page image start 
+carasol distribution page image start 
+carasol distribution page image start 
+carasol distribution page image start */
+.background-distribution-scroll{
+	width: 100%;
+	height: 300px;
+	background-color: blue;
+	background-image: url('images/distribute-main.jpg');
+	background-size: 100% 400px;
+	background-attachment: fixed;
+	margin-top: 30px;
+
+}
+.background-distribution-scroll-design{
+	width: 100%;
+	height: 300px;
+	background-color: rgb(60, 60, 60,0.9);
+position: relative;
+
+}
+
+.background-distribution-scroll-design p{
+	width: 0ch;
+	overflow: hidden;
+	white-space: nowrap;
+	margin: 0 ;
+	font-size:50px;
+	font-family: Brush Script MT;
+	color: #00cc99;
+	animation: typing 6s steps(18) infinite;
+	position: absolute;
+	left: 35%;
+	top: 40%;
+	border-right: 3px solid #00cc99;
+
+}
+@keyframes typing{
+	0%{
+		width: 0ch;
+		
+	}
+	50%{
+		width: 18ch;
+		
+	}
+}
+/*carasol distribution page image  end
+carasol distribution page image  end
+carasol distribution page image  end
+carasol distribution page image  end*/
 
 
 /*Remaining content for index page start
@@ -560,6 +720,7 @@ flex-basis: 100%;
 margin-bottom: 10px;
 }
 
+
 /*index page rmaining end
 index page rmaining end
 index page rmaining end
@@ -612,6 +773,59 @@ margin-bottom: 0;
 distributors page remaining end
 distributors page remaining end
 distributors page remaining end**/
+
+
+/*carasol customer page image start start
+carasol customer page image start start
+carasol customer page image start start
+carasol customer page image start start*/
+
+.background-customer-scroll-design p{
+	
+	left: 7%;
+font-size:30px;	
+
+}
+
+/*carasol customer page image  end
+carasol customer page image  end
+carasol customer page image  end
+carasol customer page image  end*/
+
+
+/*carasol contact page image start start
+carasol contact page image start start
+carasol contact page image start start
+carasol contact page image start start*/
+
+.background-contact-scroll-design p{
+	
+	left: 6%;
+font-size:30px;	
+
+}
+
+/*carasol contact page image  end
+carasol contact page image  end
+carasol contact page image  end
+carasol contact page image  end*/
+
+
+/*carasol distribution page image start 
+carasol distribution page image start 
+carasol distribution page image start 
+carasol distribution page image start */
+.background-distribution-scroll-design p{
+	
+	left: 7%;
+font-size:30px;	
+
+}
+/*carasol distribution page image  end
+carasol distribution page image  end
+carasol distribution page image  end
+carasol distribution page image  end*/
+
 
 
 /**contact page remaining content start 
