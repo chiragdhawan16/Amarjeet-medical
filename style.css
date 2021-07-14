@@ -9,6 +9,7 @@ body{
 	margin:0;
 }
 html {
+  -webkit-scroll-behavior: smooth;
   scroll-behavior: smooth;
   
 }
@@ -243,6 +244,7 @@ carasol customer page image start */
 	background-image: url('images/customers-main.jpg');
 	background-size: 100% 400px;
 	-webkit-background-attachment: fixed;
+	background-attachment: fixed;
 	margin-top: 30px;
 
 }
@@ -298,6 +300,7 @@ carasol contact page image start */
 	background-image: url('images/contact-main.jpg');
 	background-size: 100% 400px;
 	-webkit-background-attachment: fixed;
+	background-attachment: fixed;
 	margin-top: 30px;
 
 }
@@ -352,6 +355,7 @@ carasol distribution page image start */
 	background-image: url('images/distribute-main.jpg');
 	background-size: 100% 400px;
 	-webkit-background-attachment: fixed;
+	background-attachment: fixed;
 	margin-top: 30px;
 
 }
