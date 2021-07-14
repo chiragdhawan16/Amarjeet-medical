@@ -242,7 +242,7 @@ carasol customer page image start */
 	background-color: blue;
 	background-image: url('images/customers-main.jpg');
 	background-size: 100% 400px;
-	background-attachment: fixed;
+	-webkit-background-attachment: fixed;
 	margin-top: 30px;
 
 }
@@ -262,20 +262,20 @@ position: relative;
 	font-size:50px;
 	font-family: Brush Script MT;
 	color: #00cc99;
-	animation: typing 6s steps(22) infinite;
+	animation: customer 8s steps(20) infinite;
 	position: absolute;
 	left: 35%;
 	top: 40%;
 	border-right: 3px solid #00cc99;
 
 }
-@keyframes typing{
+@keyframes customer{
 	0%{
 		width: 0ch;
 		
 	}
 	50%{
-		width: 22ch;
+		width: 20ch;
 		
 	}
 }
@@ -297,7 +297,7 @@ carasol contact page image start */
 	background-color: blue;
 	background-image: url('images/contact-main.jpg');
 	background-size: 100% 400px;
-	background-attachment: fixed;
+	-webkit-background-attachment: fixed;
 	margin-top: 30px;
 
 }
@@ -317,20 +317,20 @@ position: relative;
 	font-size:50px;
 	font-family: Brush Script MT;
 	color: #00cc99;
-	animation: typing 8s steps(26) infinite;
+	animation: contact 8s steps(23) infinite;
 	position: absolute;
 	left: 35%;
 	top: 40%;
 	border-right: 3px solid #00cc99;
 
 }
-@keyframes typing{
+@keyframes contact{
 	0%{
 		width: 0ch;
 		
 	}
 	50%{
-		width: 26ch;
+		width: 23ch;
 		
 	}
 }
@@ -351,7 +351,7 @@ carasol distribution page image start */
 	background-color: blue;
 	background-image: url('images/distribute-main.jpg');
 	background-size: 100% 400px;
-	background-attachment: fixed;
+	-webkit-background-attachment: fixed;
 	margin-top: 30px;
 
 }
