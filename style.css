@@ -12,6 +12,13 @@ html {
   scroll-behavior: smooth;
   
 }
+
+
+
+/*header for all page start
+header for all page start
+header for all page start
+header for all page start*/
 .navbar{
 	
 	display: flex;
@@ -39,19 +46,17 @@ align-items: center;
 
 .nav-list li{
 	list-style:none;
-	margin:0 20px;
-	
+	margin:0 20px;	
 }
 
 .nav-list a{
 	text-decoration: none;
 	color:white;
 	}
-.navbar ul .active a,.navbar ul li a:hover{
-	color: #fc0;
-	
-}
 
+.navbar ul .active a,.navbar ul li a:hover{
+	color: #fc0;	
+}
 
 
 .navbar span{
@@ -60,32 +65,179 @@ align-items: center;
 	display: none;		
 }
 
+/*header for all page end
+header for all page end
+header for all page end
+header for all page end*/
+
+
+
+
+
+
+
+/*main image content for all page start
+main image content for all page start
+main image content for all page start
+main image content for all page start*/
+
 .main-image{
-	width: 90%;
+	width: 80%;
 	position: relative;
 	margin: 50px auto;
-
-
+	margin-bottom: 0px;
 }
-.slide-on-image{
-	background: rgba(255,255,255,0.9);
-	position:absolute;
-	max-width: 60%;
-	height:auto;
-	padding: 10px;
-	bottom: 10%;
-	left: 10%;
-}
-.slide-on-image h2{
-border-bottom: 5px solid;
-border-color: blue;
-padding-bottom: 10px;
-	}
+
 .main-image img{
 	width: 100%;
 	height: 400px;
 	
 }
+/*main image content for all page end
+main image content for all page end
+main image content for all page end
+main image content for all page end*/
+
+
+
+
+/*footer for all page start
+footer for all page start
+footer for all page start
+footer for all page start*/
+
+.footer{
+	width: 100%;	
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 90px;
+	background-color: #2F4F4F;
+	color: white;
+}
+
+.footer-left span{
+	padding-left: 10px;
+}
+.contact-para-space{
+	padding-left: 25px;
+}
+
+.footer-right ul li a{
+text-decoration: none;
+color: white;
+}
+.footer-right ul li{
+	padding-bottom: 20px;
+}
+.footer-right ul{
+	padding-left: 10px;
+}
+
+.to-top {
+	background:black;
+	padding-top: 15px;
+	color:white;
+	position:fixed;
+	bottom:50px		;
+	right: 50px;
+	width: 	50px;
+	height:50px;
+	text-align: center;
+	border-radius:50%;
+	cursor:pointer	;
+	z-index: 5;
+	text-decoration: none;
+	opacity: 0;
+	/*pointer-events: none;*/
+	transition: all .5s;
+}
+.to-top.active{
+	pointer-events: auto;
+	opacity:1;
+	
+}
+
+/*footer for all pages end
+footer for all pages end
+footer for all pages end
+footer for all pages end*/
+
+
+
+
+/*carasol index page image start
+carasol index page image start
+carasol index page image start
+carasol index page image start*/
+#outerbox{
+	width:80%;
+	overflow: hidden;
+height: 400px;
+margin:50px auto;
+margin-bottom: 0px;
+
+}
+#sliderbox{
+	width: 500%;
+	display: flex;
+	animation: carasoul 20s linear infinite;
+	position: relative;
+
+
+}
+#sliderbox img{
+width: 20%;
+height: 400px;
+
+}
+
+@keyframes carasoul{
+
+	0%{
+		left:0%;
+	}
+	20%{
+		left: 0%;
+	}
+	25%{
+		left: -100%;
+	}
+
+	45%{
+		left:-100%;
+	}
+	50%{
+		left: -200%;
+	}
+	70%{
+		left: -200%;
+	}
+	75%{
+		left: -300%;
+	}
+	95%{/*change in % because last image to not to pause on blank*/
+		left: -300%;
+	}
+	100%{
+		left:-400%;
+	}
+	
+}
+
+/*carasol index page image start end
+carasol index page image start end
+carasol index page image start end
+carasol index page image start end*/
+
+
+
+
+/*Remaining content for index page start
+Remaining content for index page start
+Remaining content for index page start
+Remaining content for index page start*/
 
 .main-content{
 	display: flex;
@@ -93,6 +245,8 @@ padding-bottom: 10px;
 	padding: 20px;
 	width: 90%;
 	margin: 0 auto;
+
+
 	/*margin-top: 10px;*/
 }
 .main-content div{
@@ -167,34 +321,6 @@ text-align: justify;
 margin: 0px 30px 10px 30px;
 }
 
-.footer{
-	width: 100%;	
-	display: flex;
-	justify-content: space-around;
-	margin: 0 auto;
-	padding-top: 30px;
-	padding-bottom: 90px;
-	background-color: #2F4F4F;
-	color: white;
-}
-
-.footer-left span{
-	padding-left: 10px;
-}
-.contact-para-space{
-	padding-left: 25px;
-}
-
-.footer-right ul li a{
-text-decoration: none;
-color: white;
-}
-.footer-right ul li{
-	padding-bottom: 20px;
-}
-.footer-right ul{
-	padding-left: 10px;
-}
 
 .statistic{
 	background:#7FFFD4;
@@ -211,7 +337,6 @@ color: white;
 .countertext{
 	font-size: 25px;
 	
-
 }
 .lines p:before{
 	background-color: white;
@@ -223,7 +348,6 @@ color: white;
 	left: 0;
 	top: 50%;
 }
-
 
 .statistic-counter{
 	
@@ -244,162 +368,18 @@ color: white;
 	color:#2F4F4F;
 	font-size: 25px;
 }
-.to-top {
-	background:black;
-	padding-top: 15px;
-	color:white;
-	position:fixed;
-	bottom:50px		;
-	right: 50px;
-	width: 	50px;
-	height:50px;
-	text-align: center;
-	border-radius:50%;
-	cursor:pointer	;
-	z-index: 5;
-	text-decoration: none;
-	opacity: 0;
-	/*pointer-events: none;*/
-	transition: all .5s;
-}
-.to-top.active{
-	pointer-events: auto;
-	opacity:1;
-	
-}
+
+/*Remaining content for index page end
+Remaining content for index page end
+Remaining content for index page end
+Remaining content for index page end*/
 
 
 
-/** management page**/
-
-.management-content{
-display: flex;
-flex-direction: column;
-margin:50px;
-
-}
-
-.management-heading{
-	font-size: 30px;
-	color:blue;
-}
-
-.management-name{
-	color: blue;
-	
-}
-/**management page end**/
-
-/**contact page start**/
-.contact-content{
-	display: flex;
-	flex-direction: column;
-	margin:30px;
-	align-items: center;
-}
-.contact-content a{
-color: white;
-text-decoration: none;
-background-color: blue;
-padding: 10px;
-border-radius: 5%;
-
-}
-.contact-card{
-	display: flex;
-	margin:30px;
-}
-
-.contact-card div{
-	width:33.3%;
-	padding: 10px;
-	text-align: center;
-}
-.contact-card h3{
-	color:#aec40b;
-}
-.about-contact-interested{
-	text-align: center;
-	margin-top: 20px;
-
-}
-.about-contact-interested-decoration{
-	font-size: 30px;
-}
-.send-message{
-	display: flex;
-	justify-content: space-around;
-	margin:20px;
-}
-
-.send-message div{
-	
-	width: 50%;
-	padding: 20px;
-
-}
-.send-message-address{
-	text-align: center;
-}
-..send-message-address img{
-	width:100%;
-}
-
-.send-message-address span{
-	font-size: 25px;
-}
-.send-message-address br{
-	margin: 3px;
-}
-.send-message-right input{
-	width:100%;
-	height: 40px;
-	
-  background-color : #fafbf7;
-}
-.send-message-right{
-	font-size: 20px;
-}
-.send-message-right span{
-	color:#aec40b;
-}
-/** contact page end**/
-
-
-/**distributors page start**/
-/**
-.main-heading{
-	text-align: center;
-	font-weight: bolder;
-}
-.distributors-card{
-width: 70%;
-margin: 0 auto;
-
-display: flex;
-justify-content: space-between;
-}
-.distributors-card div{
- width: 20%;
- text-align: center;
-}
-.distributors-card div img{
-	width: 100%;
-	height: 100px;
-}
-.distributors-names {
-	display: flex;
-	justify-content: space-between;
-	width: 90%;
-	margin: 0 auto;
-	
-}
-.distributors-names ul{
-	margin: 10px auto;
-	
-	width: 20%;
-}**/
-
+/**distributors page remaining content start
+distributors page remaining content start
+distributors page remaining content start
+distributors page remaining content start**/
 .capture{
 width: 80%;
 margin: 0 auto;
@@ -414,14 +394,21 @@ justify-content: space-around;
 width: 80%;
 flex-wrap: wrap;
 margin: 0 auto;
+background-color: #ebe8e1;
 
 }
+/**distributors page remaining content end
+distributors page remaining content end
+distributors page remaining content end
+distributors page remaining content end**/
 
 
 
-/**distributors page end**/
 
-/**customer start **/
+/**customer page remaining content start 
+customer page remaining content start 
+customer page remaining content start 
+customer page remaining content start **/
 .main-heading{
 	text-align: center;
 	font-weight: bolder;
@@ -451,11 +438,37 @@ display: flex;
 	width: 45%;
 
 }
-/**customer end **/
+/**customer page remaining content end 
+customer page remaining content end 
+customer page remaining content end 
+customer page remaining content end **/
 
+
+/**contact page remaining content start 
+contact page remaining content start 
+contact page remaining content start 
+contact page remaining content start **/
+.contact-main-content{
+	width: 80%;
+	margin: 30px auto;
+	background-color: #ede6d5;
+	padding: 40px;
+}
+.contact-main-content-inner{
+	display: flex;
+	justify-content: space-between;
+}
+/**contact page remaining content end 
+contact page remaining content end 
+contact page remaining content end 
+contact page remaining content end **/
 
 @media only screen and (max-width: 	800px){
 
+/*header for all page start
+header for all page start
+header for all page start
+header for all page start*/
 	.navbar{
 	
 	display: flex;
@@ -493,6 +506,46 @@ pointer-events: auto;
 	z-index: 999;
 }
 
+/*header for all page end
+header for all page end
+header for all page end
+header for all page end*/
+
+/*main image content for all page start
+main image content for all page start
+main image content for all page start
+main image content for all page start*/
+
+
+.main-image img{
+	
+	height: 300px;
+	
+}
+/*main image content for all page end
+main image content for all page end
+main image content for all page end
+main image content for all page end*/
+
+/*footer for all page start
+footer for all page start
+footer for all page start
+footer for all page start*/
+.footer{
+	display:flex;
+	flex-direction:column;	
+	padding-left: 50px 	
+}
+
+/*footer for all page end
+footer for all page end
+footer for all page end
+footer for all page end*/
+
+/*index page rmaining start
+index page rmaining start
+index page rmaining start
+index page rmaining start*/
 .main-content{
 	display:flex;	
 	flex-direction: column;	
@@ -506,38 +559,36 @@ flex-direction: column;
 flex-basis: 100%;
 margin-bottom: 10px;
 }
-.footer{
-	display:flex;
-	flex-direction:column;	
-	padding-left: 50px 	
+
+/*index page rmaining end
+index page rmaining end
+index page rmaining end
+index page rmaining end*/
+
+
+/*carasol index page image start
+carasol index page image start
+carasol index page image start
+carasol index page image start*/
+
+#outerbox{
+height: 300px;
+}
+#sliderbox img{
+
+height: 300px;
+
 }
 
-/**contact page start**/
-.contact-card{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	
-}
-.contact-card div{
-width:90%;
-}
+/*carasol index page image end
+carasol index page image end
+carasol index page image end
+carasol index page image end*/
 
-.send-message{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-.send-message div{
-	width:90%;
-}
-
-.send-message-right input{
-	font-size: 16px;
-}
-/**contact page end**/
-
-/**distributors page start**/
+/**distributors page remaining start
+distributors page remaining start
+distributors page remaining start
+distributors page remaining start**/
 
 .capture{
 	
@@ -557,12 +608,37 @@ flex-direction: column;
 margin-top: 0;
 margin-bottom: 0;
 }
-/**distributors page end**/
+/**distributors page remaining end
+distributors page remaining end
+distributors page remaining end
+distributors page remaining end**/
+
+
+/**contact page remaining content start 
+contact page remaining content start 
+contact page remaining content start 
+contact page remaining content start **/
+
+.contact-main-content-inner{
+	flex-direction: column;
+}
+/**contact page remaining content end 
+contact page remaining content end 
+contact page remaining content end 
+contact page remaining content end **/
 
 
 }
 
+
 @media only screen and (max-width: 	600px){
+
+/**index page remaining start
+index page remaining start
+index page remaining start
+index page remaining start**/
+
+
 .statistic-counter{
 	display: flex;
 	flex-direction: column;
@@ -574,4 +650,9 @@ margin-bottom: 0;
 	width: 50%; 
 
 }
+
+/**index page remaining end
+index page remaining end
+index page remaining end
+index page remaining end**/
 }
