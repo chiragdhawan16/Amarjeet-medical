@@ -160,6 +160,16 @@ color: white;
 	
 }
 
+.developedby-footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.developedby-footer a{
+	text-decoration: none;
+	color: #fc0;
+}
 /*footer for all pages end
 footer for all pages end
 footer for all pages end
@@ -544,14 +554,41 @@ Remaining content for index page end*/
 distributors page remaining content start
 distributors page remaining content start
 distributors page remaining content start**/
-.capture{
-width: 80%;
-margin: 0 auto;
-display: flex;
+.distributors-logo-main{
+	width: 80%;
+	margin: 30px auto;
 }
-.capture img{
-	width:50%;
+.distributor-logo-row{
+
+	display: flex;
+	margin-top: 30px;
+	width: 100%;	
 }
+
+.distributor-logo-row-2{
+	display: flex;
+	width: 50%;
+
+	
+}
+
+.logo-and-name{
+	width: 50%;	
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+
+
+}
+.logo-and-name img{
+	margin: 0 auto;
+}
+
+.logo-and-name p{
+	text-align: center;
+
+}
+
 .company-list{
 display: flex;
 justify-content: space-around;
@@ -754,16 +791,17 @@ carasol index page image end*/
 distributors page remaining start
 distributors page remaining start
 distributors page remaining start**/
+.distributor-logo-row{
 
-.capture{
+	flex-direction: column;
+		
+}
+.distributor-logo-row-2{
+	display: flex;
+	width: 100%;
 	
-display: flex;
-flex-direction: column;
 }
-.capture img{
-	width:100%;
 
-}
 .company-list{
 	flex-direction: column;
 		margin: 0 auto;
@@ -849,7 +887,7 @@ contact page remaining content end **/
 }
 
 
-@media only screen and (max-width: 	600px){
+@media only screen and (max-width: 	700px){
 
 /**index page remaining start
 index page remaining start
@@ -873,4 +911,32 @@ index page remaining start**/
 index page remaining end
 index page remaining end
 index page remaining end**/
+
+
+/**distrinutor page remaining start
+distrinutor page remaining start
+distrinutor page remaining start
+distrinutor page remaining start**/
+
+
+.distributor-logo-row-2{
+	flex-direction: column;
+
 }
+
+.logo-and-name{
+	width: 100%;	
+
+
+}
+
+/**distrinutor page remaining end
+distrinutor page remaining end
+distrinutor page remaining end
+distrinutor page remaining end**/
+}
+
+
+
+
+
